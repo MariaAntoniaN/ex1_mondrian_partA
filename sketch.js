@@ -1,4 +1,5 @@
 function setup() {
+  //centralizar o canvas
   let cnv = createCanvas(800, 784);
   let x = (windowWidth - width) / 2;
   let y = (windowHeight - height) / 2;
@@ -44,6 +45,7 @@ strokeWeight(0);
  text('P M   35', 568, 784);
   
 }
+
 // função faz o degrade
 function setGradient(c1, c2) {
 
