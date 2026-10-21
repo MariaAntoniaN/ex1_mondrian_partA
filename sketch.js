@@ -1,5 +1,5 @@
 function setup() {
-    let cnv = createCanvas(800, 784);
+  let cnv = createCanvas(800, 784);
   let x = (windowWidth - width) / 2;
   let y = (windowHeight - height) / 2;
   cnv.position(x, y);
